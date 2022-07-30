@@ -4,6 +4,8 @@ then
 git config --global user.email "$1"
 git config --global user.name "$2"
 git config --global credential.helper store
+
+echo "이메일: $1 이름: $2"
 echo "git 등록 완료"
 
 else
