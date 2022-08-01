@@ -1,0 +1,1 @@
+cat ./jenkins_home/secrets/initialAdminPassword
